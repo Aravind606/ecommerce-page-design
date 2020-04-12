@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+  <script src="https://kit.fontawesome.com/55a75e6239.js" crossorigin="anonymous"></script>
+  <!-- slick carosuel -->
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+  <header style="position: sticky; top: 0px; z-index: 999999999;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-3">
+          <div>
+
+          </div>
+          <div class="sidebar">
+            <ul>
+              <li><a href="#">Maison Me</a></li>
+              <li> <a href="#">play</a></li>
+              <li><a href="#">kids</a></li>
+              <li><a href="#">Brands</a></li>
+              <li><a href="#">Sale</a></li>
+            </ul>
+            <div class="baricon"></div>
+          </div>
+
+          <div>
+            <a class="nav-link" href="#"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+        <div class=" col-md-4 col-sm-3 text-center">
+          <h3>MAISONETTE</h3>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Product category -->
+    <div class="category">
+      <div class="navbar-brand-main">
+        <ul class="nav-items">
+          <div id="nav-item">
+            <a href="#">WHAT'S NEW</a>
+            <div class="nav-content">
+              <div id="subcontent">
+                <div id="content-head">
+                  JUST IN
+                  <hr>
+                </div>
+                <div id="content-body">
+                  <li><a href="#">NEW THIS MONTH</a></li>
+                  <li><a href="#">NEW DRESSES</a></li>
+                  <li><a href="#">FOR BABY BOY</a></li>
+                  <li><a href="#">FOR BABY GIRL</a></li>
+                  <li><a href="#">FOR BOY</a></li>
+                  <li><a href="#">FOR GIRL</a></li>
+                </div>
+              </div>
+              <div id="subcontent">
+                <div id="content-head">
+                  TRENDING
+                  <hr>
+                </div>
+                <div id="content-body">
+                  <li><a href="#">Selling Fast this Week</a></li>
+                  <li><a href="#">Exclusives</a></li>
+                  <li><a href="#">New Gifts</a></li>
+                </div>
+              </div>
+              <div id="subcontent">
+                <div id="content-head">
+                  SHOPS
+                  <hr>
+                </div>
+                <div id="content-body">
+                  <li><a href="#">Beauty Shop</a></li>
+                  <li><a href="#">Mommy Shop</a></li>
+                  <li><a href="#">Papa Shop</a></li>
+                  <li><a href="#">Swim Shop</a></li>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="nav-item">
+            <a href="#">BABY</a>
+            <div class="nav-content">
+              <div id="subcontent">
+                <div id="content-head">
+                  Featured
+                  <hr>
+                </div>
+                <div id="content-body">
+                  <li><a href="#">Just In</a></li>
+                  <li><a href="#">Featured Sellers</a></li>
+                  <li><a href="#">Sale</a></li>
+                </div>
+              </div>
+              <div id="subcontent">
+                <div id="content-head">
+                  Girl Clothing
+                  <hr>
+                </div>
+                <div id="content-body">
+                  <li><a href="#">Dresses</a></li>
+                  <li><a href="#">Out Wear</a></li>
+                  <li><a href="#">Tops</a></li>
+                  <li><a href="#">Skirts</a></li>
+                  <li><a href="#">Basics</a></li>
+                  <li><a href="#">Swim</a></li>
+                </div>
+              </div>
+              <div id="subcontent">
+                <div id="content-head">
+                  Girl Accessories
+                  <hr>
+                </div>
+                <div id="content-body">
+                  <li><a href="#">Shoes & Booties</a></li>
+                  <li><a href="#">Hats</a></li>
+                  <li><a href="#">Bows</a></li>
+                  <li><a href="#">Bloomers</a></li>
+                </div>
+              </div>
+              <div id="subcontent">
+                <div id="content-head">
+                  Boy Clothing
+                  <hr>
+                </div>
+                <div id="content-body">
+                  <li><a href="#">Dresses</a></li>
+                  <li><a href="#">OuterWear</a></li>
+                  <li><a href="#">Tops</a></li>
+                  <li><a href="#">Skirts</a></li>
+                  <li><a href="#">Basics</a></li>
+                  <li><a href="#">Swim</a></li>
+                  <li><a href="#">Shorts</a></li>
+                  <li><a href="#">SleepWear</a></li>
+                </div>
+              </div>
+              <div id="subcontent">
+                <div id="content-head">
+                  Boy Accessories
+                  <hr>
+                </div>
+                <div id="content-body">
+                  <li><a href="#">Shoes & Booties</a></li>
+                  <li><a href="#">Socks</a></li>
+                  <li><a href="#">Bows</a></li>
+                  <li><a href="#">Bloomers</a></li>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="nav-item">
+            <a href="#">KIDS</a>
+            <div class="nav-content">
+              <div id="subcontent">
+                <div id="content-head">
+                  Featured
+                  <hr>
+                </div>
+                <div id="content-body">
+                  <li><a href="#">Just In</a></li>
+                  <li><a href="#">Featured Sellers</a></li>
+                  <li><a href="#">Sale</a></li>
+                </div>
+              </div>
+              <div id="subcontent">
+                <div id="content-head">
+                  Girl Clothing
+                  <hr>
+                </div>
+                <div id="content-body">
+                  <li><a href="#">Dresses</a></li>
+                  <li><a href="#">Out Wear</a></li>
+                  <li><a href="#">Tops</a></li>
+                  <li><a href="#">Skirts</a></li>
+                  <li><a href="#">Basics</a></li>
+                  <li><a href="#">Swim</a></li>
+                </div>
+              </div>
+              <div id="subcontent">
+                <div id="content-head">
+                  Girl Accessories
+                  <hr>
+                </div>
+                <div id="content-body">
+                  <li><a href="#">Shoes & Booties</a></li>
+                  <li><a href="#">Hats</a></li>
+                  <li><a href="#">Bows</a></li>
+                  <li><a href="#">Bloomers</a></li>
+                </div>
+              </div>
+              <div id="subcontent">
+                <div id="content-head">
+                  Boy Clothing
+                  <hr>
+                </div>
+                <div id="content-body">
+                  <li><a href="#">Dresses</a></li>
+                  <li><a href="#">OuterWear</a></li>
+                  <li><a href="#">Tops</a></li>
+                  <li><a href="#">Skirts</a></li>
+                  <li><a href="#">Basics</a></li>
+                  <li><a href="#">Swim</a></li>
+                  <li><a href="#">Shorts</a></li>
+                  <li><a href="#">SleepWear</a></li>
+                </div>
+              </div>
+              <div id="subcontent">
+                <div id="content-head">
+                  Boy Accessories
+                  <hr>
+                </div>
+                <div id="content-body">
+                  <li><a href="#">Shoes & Booties</a></li>
+                  <li><a href="#">Socks</a></li>
+                  <li><a href="#">Bows</a></li>
+                  <li><a href="#">Bloomers</a></li>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="nav-item">
+            <a href="#">PLAY</a>
+            <div class="nav-content">
+              <div id="subcontent">
+                <div id="content-head">
+                  Featured
+                  <hr>
+                </div>
+                <div id="content-body">
+                  <li><a href="#">Just In</a></li>
+                  <li><a href="#">Featured Sellers</a></li>
+                  <li><a href="#">Sale</a></li>
+                </div>
+              </div>
+              <div id="subcontent">
+                <div id="content-head">
+                  BABY
+                  <hr>
+                </div>
+                <div id="content-body">
+                  <li><a href="#">Musical</a></li>
+                  <li><a href="#">Play</a></li>
+                  <li><a href="#">Kitchen</a></li>
+                  <li><a href="#">Skirts</a></li>
+                  <li><a href="#">Basics</a></li>
+                  <li><a href="#">Swim</a></li>
+                </div>
+              </div>
+              <div id="subcontent">
+                <div id="content-head">
+                  KIDS
+                  <hr>
+                </div>
+                <div id="content-body">
+                  <li><a href="#">Shoes & Booties</a></li>
+                  <li><a href="#">Hats</a></li>
+                  <li><a href="#">Bows</a></li>
+                  <li><a href="#">Bloomers</a></li>
+                </div>
+              </div>
+              <div id="subcontent">
+                <div id="content-head">
+                  Outdoor
+                  <hr>
+                </div>
+                <div id="content-body">
+                  <li><a href="#">Bikes</a></li>
+                  <li><a href="#">Cars</a></li>
+                  <li><a href="#">Sports</a></li>
+                  <li><a href="#">Water Play</a></li>
+                </div>
+              </div>
+              <div id="subcontent">
+                <div id="content-head">
+                  Learning
+                  <hr>
+                </div>
+                <div id="content-body">
+                  <li><a href="#">Books</a></li>
+                  <li><a href="#">Games</a></li>
+                  <li><a href="#">Puzzles</a></li>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="nav-item">
+            <a href="#">HOME</a>
+            <div class="nav-content">
+              <div id="subcontent">
+                <div id="content-head">
+                  Featured
+                  <hr>
+                </div>
+                <div id="content-body">
+                  <li><a href="#">Just In</a></li>
+                  <li><a href="#">Featured Sellers</a></li>
+                  <li><a href="#">Sale</a></li>
+                </div>
+              </div>
+              <div id="subcontent">
+                <div id="content-head">
+                  BABY
+                  <hr>
+                </div>
+                <div id="content-body">
+                  <li><a href="#">Musical</a></li>
+                  <li><a href="#">Play</a></li>
+                  <li><a href="#">Kitchen</a></li>
+                  <li><a href="#">Skirts</a></li>
+                  <li><a href="#">Basics</a></li>
+                  <li><a href="#">Swim</a></li>
+                </div>
+              </div>
+              <div id="subcontent">
+                <div id="content-head">
+                  KIDS
+                  <hr>
+                </div>
+                <div id="content-body">
+                  <li><a href="#">Shoes & Booties</a></li>
+                  <li><a href="#">Hats</a></li>
+                  <li><a href="#">Bows</a></li>
+                  <li><a href="#">Bloomers</a></li>
+                </div>
+              </div>
+              <div id="subcontent">
+                <div id="content-head">
+                  Outdoor
+                  <hr>
+                </div>
+                <div id="content-body">
+                  <li><a href="#">Bikes</a></li>
+                  <li><a href="#">Cars</a></li>
+                  <li><a href="#">Sports</a></li>
+                  <li><a href="#">Water Play</a></li>
+                </div>
+              </div>
+              <div id="subcontent">
+                <div id="content-head">
+                  Learning
+                  <hr>
+                </div>
+                <div id="content-body">
+                  <li><a href="#">Books</a></li>
+                  <li><a href="#">Games</a></li>
+                  <li><a href="#">Puzzles</a></li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+
+  </header>
+  <main>
+    <!-- hero image section -->
+    <section class="hero">
+      <div class="row hero-img">
+        <div class="container my-4">
+          <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12">
+              <img class="hero-img"
+                src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/655637/hero_desktop/0327_ArtRoomBanner_Desktop.jpg?1585504159"
+                alt="hero">
+            </div>
+            <div class="text-center hero-text p-3 mx-auto">
+              <h2>Top Toys & Crafts</h2>
+              <h5 class="mt-3">Shop Now</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- shop by age section -->
+    <section>
+      <div class="container">
+        <div class="row my-3">
+          <div class="col-xl-12">
+            <h2 class="text-center">Shop By Age</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-sm-12 col-xl-6 d-flex">
+              <div style="padding: 0.5rem">
+                <img class=" img-fluid rounded-circle mt-4"
+                  src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/655639/category_item/shop-by-age-0328200-6m.png?1585504288"
+                  alt="">
+                <div class="text-center mt-4">0-6M</div>
+                <div class="text-center mt-2"> <i class="fas fa-chevron-right next"></i></div>
+              </div>
+              <div style="padding: .5rem">
+                <img class=" img-fluid rounded-circle mt-4"
+                  src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/655640/category_item/shop-by-age-0328206-12m.png?1585504305"
+                  alt="">
+                <div class="text-center mt-4">6-12M</div>
+                <div class="text-center mt-2"> <i class="fas fa-chevron-right next"></i></div>
+              </div>
+              <div style="padding: .5rem">
+                <img class="img-fluid rounded-circle mt-4"
+                  src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/655641/category_item/shop-by-age-03282012-24m.png?1585504328"
+                  alt="">
+                <div class="text-center mt-4">12-24M</div>
+                <div class="text-center mt-2"> <i class="fas fa-chevron-right next"></i></div>
+              </div>
+              <div style="padding: .5rem">
+                <img class="img-fluid rounded-circle mt-4"
+                  src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/655642/category_item/shop-by-age-0328202-4y.png?1585504333"
+                  alt="">
+                <div class="text-center mt-4">2-4y</div>
+                <div class="text-center mt-2"> <i class="fas fa-chevron-right next"></i></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xl-6 d-flex">
+              <div style="padding: .5rem">
+                <img class="img-fluid rounded-circle mt-4"
+                  src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/655643/category_item/shop-by-age-0328204-6y.png?1585504421"
+                  alt="">
+                <div class="text-center mt-4">4-6y</div>
+                <div class="text-center mt-2"> <i class="fas fa-chevron-right next"></i></div>
+              </div>
+              <div style="padding: .5rem">
+                <img class="img-fluid rounded-circle mt-4"
+                  src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/655644/category_item/shop-by-age-0328206-8y.png?1585504431"
+                  alt="">
+                <div class="text-center mt-4">6-8y</div>
+                <div class="text-center mt-2"> <i class="fas fa-chevron-right next"></i></div>
+              </div>
+              <div style="padding: .5rem">
+                <img class="img-fluid rounded-circle mt-4"
+                  src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/655645/category_item/shop-by-age-0328208y_.png?1585504440"
+                  alt="">
+                <div class="text-center mt-4">8y+</div>
+                <div class="text-center mt-2"> <i class="fas fa-chevron-right next"></i></div>
+              </div>
+              <div style="padding: .5rem">
+                <img class="img-fluid rounded-circle mt-4"
+                  src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/655646/category_item/shop-by-age-032820Adult.png?1585504457"
+                  alt="">
+                <div class="text-center mt-4">GROWN-UPS</div>
+                <div class="text-center mt-2"> <i class="fas fa-chevron-right next"></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- toys and crafts image -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img class="img-fluid mt-4"
+              src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/657690/box/Banner_Square_ArtsCrafts_Desktop_040320.jpg?1585938874">
+
+          </div>
+
+          <div class="offset-md-1 col-md-5" style="width: 100%;">
+            <img class="img-fluid rounded-circle mt-4"
+              src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/655657/circle/0330_EducationalToys_1000x1000.jpg?1585507398"
+              alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="text-center toptoys-text p-3 mx-auto">
+              <a href="#"><span>Trending</span></a>
+              <h2>Top Toys & Crafts</h2>
+              <h5 class="mt-3">Shop Now</h5>
+            </div>
+          </div>
+          <div class="col-md-6 edtoys">
+            <div class="text-center edutoys-text p-3 mx-auto">
+              <a href="#"><span>Learning at Home</span></a>
+              <h2>Educational Toys</h2>
+              <h5 class="mt-3">Shop Now</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- The edit section -->
+    <section>
+      <div class="container">
+        <div class="row my-3">
+          <div class="col-xl-12">
+            <h2 class="text-center mt-5">The Edits</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-2 mx-auto">
+            <div class="">
+              <img class="img-fluid rounded-circle mt-4"
+                src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/657692/category_item_retina/What's_New.jpg?1585938890"
+                alt="">
+              <div class="text-center mt-4"><a href="#">What's New</a></div>
+              <div class="text-center mt-2"><a href="#">SHOP NOW</a></div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-2 mx-auto">
+            <div class="">
+              <img class="img-fluid rounded-circle mt-4"
+                src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/657694/category_item_retina/Mini_Classroom.jpg?1585938932"
+                alt="">
+              <div class="text-center mt-4"><a href="#">Mini Classroom</a></div>
+              <div class="text-center mt-2"><a href="#">SHOP NOW</a></div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-2 mx-auto">
+            <div class="">
+              <img class="img-fluid rounded-circle mt-4"
+                src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/657702/category_item_retina/Plush_Toys.jpg?1585939339"
+                alt="">
+              <div class="text-center mt-4"><a href="#">Plush Toys</a></div>
+              <div class="text-center mt-2"><a href="#">SHOP NOW</a></div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-2 mx-auto">
+            <div class="">
+              <img class="img-fluid rounded-circle mt-4"
+                src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/655650/category_item_retina/033020_HPOutdoor_Toys.jpg?1585506925"
+                alt="">
+              <div class="text-center mt-4"><a href="#">Outdoor Toys</a></div>
+              <div class="text-center mt-2"><a href="#">SHOP NOW</a></div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-2 mx-auto">
+            <div class="">
+              <img class="img-fluid rounded-circle mt-4"
+                src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/657697/category_item_retina/Spring_PJs.jpg?1585938995"
+                alt="">
+              <div class="text-center mt-4"><a href="#">Spring Pajamas</a></div>
+              <div class="text-center mt-2"><a href="#">SHOP NOW</a></div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-2 mx-auto">
+            <div class="">
+              <img class="img-fluid rounded-circle mt-4"
+                src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/657693/category_item_retina/033020_HPPuzzles___Games.jpg?1585938907"
+                alt="">
+              <div class="text-center mt-4"><a href="#">Puzzles & Games</a></div>
+              <div class="text-center mt-2"><a href="#">SHOP NOW</a></div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-2 mx-auto">
+            <div class="">
+              <img class="img-fluid rounded-circle mt-4"
+                src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/656071/category_item_retina/LaFM88_MAISONETTE_16_003-V2.jpg?1585689117"
+                alt="">
+              <div class="text-center mt-4"><a href="#">Maison Me</a></div>
+              <div class="text-center mt-2"><a href="#">SHOP NOW</a></div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-2 mx-auto">
+            <div class="">
+              <img class="img-fluid rounded-circle mt-4"
+                src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/657701/category_item_retina/033020_HPQuiet_Time_Toys.jpg?1585939324"
+                alt="">
+              <div class="text-center mt-4"><a href="#">Queit Time Toys</a></div>
+              <div class="text-center mt-2"><a href="#">SHOP NOW</a></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- product section carosuel -->
+    <section>
+      <div class="product">
+        <div class="product-slider mt-5">
+          <h1 class="product-title mt-5 pt-5">Maison Me By Maisonette</h1>
+          <i class="fas fa-chevron-left prev"></i>
+          <i class="fas fa-chevron-right next"></i>
+          <div class="product-wrapper">
+            <div class="product">
+              <img
+                src="https://d1lfvmh6v1tumg.cloudfront.net/media/products/648905/plp/crmssmkodym4rgeu4tkk.jpg?1584739821"
+                alt="image1" class="slider-image">
+              <p class="text-center">Maison Me</p>
+              <p class="text-center">Blake Dress, Flowers & Rabbits</p>
+              <p class="text-center">$64.00</p>
+            </div>
+            <div class="product">
+              <img
+                src="https://d1lfvmh6v1tumg.cloudfront.net/media/products/648991/plp/lgaxdwlvdfq68qnl5m7a.jpg?1584740564"
+                alt="image1" class="img-fluid slider-image">
+              <p class="text-center">Maison Me</p>
+              <p class="text-center">Oliver Short Sleeve Button Down, Squiggles</p>
+              <p class="text-center">$65.00</p>
+            </div>
+            <div class="product">
+              <img
+                src="https://d1lfvmh6v1tumg.cloudfront.net/media/products/647115/plp/aaddnybcucttwugphakl.jpg?1584048408"
+                alt="image1" class="slider-image">
+              <p class="text-center">Maison Me</p>
+              <p class="text-center">Blake Dress, Flowers & Rabbits</p>
+              <p class="text-center">$66.00</p>
+            </div>
+            <div class="product">
+              <img
+                src="https://d1lfvmh6v1tumg.cloudfront.net/media/products/647113/plp/err4uta6cvxz7hromfs2.jpg?1584048362"
+                alt="image1" class="slider-image">
+              <p class="text-center">Maison Me</p>
+              <p class="text-center"> Lola Hair Tie, Flowers & Rabbits</p>
+              <p class="text-center">$67.00</p>
+            </div>
+            <div class="product">
+              <img
+                src="https://d1lfvmh6v1tumg.cloudfront.net/media/products/647122/plp/kxylyvopcs7b35twdpr6.jpg?1584048459"
+                alt="image1" class="slider-image">
+              <p class="text-center">Maison Me</p>
+              <p class="text-center">Morgan Sweatshirt,Moto</p>
+              <p class="text-center">$68.00</p>
+            </div>
+            <div class="product">
+              <img
+                src="https://d1lfvmh6v1tumg.cloudfront.net/media/products/648905/plp/crmssmkodym4rgeu4tkk.jpg?1584739821"
+                alt="image1" class="slider-image">
+              <p class="text-center">Maison Me</p>
+              <p class="text-center">Lucy Ruffle Top, Embroidered Cotton Voile</p>
+              <p class="text-center">$69.00</p>
+            </div>
+            <div class="product">
+              <img
+                src="https://d1lfvmh6v1tumg.cloudfront.net/media/products/648956/plp/vn4tzyukiwudmbrqnpk2.jpg?1584740303"
+                alt="image1" class="slider-image">
+              <p class="text-center">Maison Me</p>
+              <p class="text-center">Blake Dress, Flowers & Rabbits</p>
+              <p class="text-center">$70.00</p>
+            </div>
+            <div class="product">
+              <img
+                src="https://d1lfvmh6v1tumg.cloudfront.net/media/products/647052/plp/zk5qv59os9uqbrflclty.jpg?1584047723"
+                alt="image1" class="slider-image">
+              <p class="text-center">Maison Me</p>
+              <p class="text-center">Tate Terry Set,sage</p>
+              <p class="text-center">$71.00</p>
+            </div>
+            <div class="product">
+              <img
+                src="https://d1lfvmh6v1tumg.cloudfront.net/media/products/649050/plp/a8ljnbdh1esclq7xksu2.jpg?1584741162"
+                alt="image1" class="slider-image">
+              <p class="text-center">Maison Me</p>
+              <p class="text-center">Davis Drawstring short,Grass Green</p>
+              <p class="text-center">$72.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Article section -->
+    <section class="article-section">
+      <div class="row mt-3 py-2">
+        <div class="container">
+          <div class="row my-3">
+            <div class="col-xl-12">
+              <h2 class="text-center">Latest Articles</h3>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-2 mx-auto">
+              <div class="">
+                <img class="img-fluid mt-4" style="width: 100%;"
+                  src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/658920/category_item_retina/1_LeScoop_%286%29.jpg?1586209658"
+                  alt="">
+                <div class="text-center mt-5"><a href="#">Parental arts</a></div>
+                <div class="text-center mt-2"><a href="#">Manners Begin At Breakfast</a></div>
+                <div class="text-center mt-2"><a href="#">READ NOW</a></div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-2 mx-auto">
+              <div class="">
+                <img class="img-fluid  mt-4" style="width: 100%;"
+                  src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/658924/category_item_retina/3_LeScoop.png?1586212740"
+                  alt="">
+                <div class="text-center mt-5"><a href="#">Le Cheat Sheet</a></div>
+                <div class="text-center mt-2"><a href="#">Sibilings Without Rivalry</a></div>
+                <div class="text-center mt-2"><a href="#">READ NOW</a></div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-2 mx-auto">
+              <div class="">
+                <img class="img-fluid mt-4" style="width: 100%;"
+                  src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/655659/category_item_retina/2_LeScoop_%287%29.jpg?1585508104"
+                  alt="">
+                <div class="text-center mt-5"><a href="#">Parental arts</a></div>
+                <div class="text-center mt-2"><a href="#">Easter Crafts With Darcy Miller</a></div>
+                <div class="text-center mt-2"><a href="#">READ NOW</a></div>
+              </div>
+            </div>
+            <div class="col-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 my-2 mx-auto">
+              <div class="">
+                <img class="img-fluid  mt-4" style="width: 100%;"
+                  src="https://d1lfvmh6v1tumg.cloudfront.net/media/cmsimage/658921/category_item_retina/4_LeScoop_%286%29.jpg?1586209831"
+                  alt="">
+                <div class="text-center mt-5"><a href="#">Ask The Experts</a></div>
+                <div class="text-center mt-2"><a href="#">How Do Cope With Giving Birth During the Covid-19 Crisis</a>
+                </div>
+                <div class="text-center mt-2"><a href="#">READ NOW</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Email section -->
+    <section>
+      <div class="email-section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <form class="form-section">
+              <label for="email" class="text-center">
+                <h3>Style and home inspiration, exclusives and
+                  limited
+                  edition looks right to your inbox.</h3>
+              </label>
+
+              <div class="">
+                <input class="email-input" id="email" type="email" placeholder="Your email">
+                <button type="submit" class="email-button justify-content-center"><i>Sign up</i></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-section-links1 ml-2">
+          <div class="link-top1">
+            <a href="#">CUSTOMER CARE</a>
+          </div>
+          <div class="link-bottom1">
+            <ul>
+              <a href="#">
+                <li>Shipping & Delivery</li>
+              </a>
+              <a href="#">
+                <li>F.A.Q.s</li>
+              </a>
+              <a href="#">
+                <li>Privacy Policy</li>
+              </a>
+              <a href="#">
+                <li>Terms & Conditions</li>
+              </a>
+              <a href="#">
+                <li>Contact Us</li>
+              </a>
+              <a href="#">
+                <li>Gifts Cards</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-section-links2">
+          <div class="link-top2 mt-4">
+            <a href="#">COMPANY</a>
+          </div>
+          <div class="link-bottom2">
+            <ul>
+              <a href="#">
+                <li>About</li>
+              </a>
+              <a href="#">
+                <li>Careers</li>
+              </a>
+              <a href="#">
+                <li>Patner With Us</li>
+              </a>
+              <a href="#">
+                <li>Press</li>
+              </a>
+              <a href="#">
+                <li>Accessibility</li>
+              </a>
+              <a href="#">
+                <li>Size Guide</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-section-about">
+          <div class="mt-3 ml-5">
+            <a href="#">CONTACT US</a>
+          </div>
+          <div class="social-media ml-4">
+            <a href="#">1 844-MAISONETTE<br>
+              <span>(1 844–624-7663)</span>
+            </a>
+            <a href="#" class="mr-2">customercare@maisonette.com</a>
+          </div>
+          <div id="sm-id">
+            <a href="#">
+              <li><i class="fa fa-facebook"></i></li>
+            </a>
+            <a href="#">
+              <li><i class="fa fa-twitter"></i></li>
+            </a>
+            <a href="#">
+              <li><i class="fa fa-pinterest"></i></li>
+            </a>
+            <a href="#">
+              <li><i class="fa fa-instagram"></i></li>
+            </a>
+          </div>
+        </div>
+        <div class="footer-section-contact-form mt-3 mr-5">
+          <div class="footer__col">
+            <form action="#" class="footer__signup js-subscribe" novalidate="">
+              <label id="join-mailing-list-label" class="footer__signup__label" for="join-mailing-list-input">
+                Fresh arrivals, new and new-to-you brands, and expert edits.
+                Basically, a bundle of joy in email form.
+              </label>
+              <input id="join-mailing-list-input" aria-labelledby="join-mailing-list-label" type="email"
+                placeholder="Join our mailing list" required="">
+              <input type="hidden" name="source" value="Footer">
+              <button type="submit">
+                <span class="footer__signup__submit">Submit</span>
+              </button>
+            </form>
+          </div>
+          <div class="footer__legal">
+            © 2020 Maisonette<sup style="font-style: normal; vertical-align: super;">®</sup> LLC
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <!-- slick carosuel -->
+
+  <script>
+    $(document).ready(function () {
+      $('.baricon').click(function () {
+        $('.sidebar').toggleClass('active');
+
+      })
+    });
+  </script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js">
+  </script>
+
+  <script src=" https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
